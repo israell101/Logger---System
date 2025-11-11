@@ -38,10 +38,23 @@ form{
       }
     }
 
-    button{
-        font-size: 1.25rem;
-        padding: 0.75rem 0;
-    }
+   
+    button::after{
+    content: '';
+    background-color: red;
+    width: 10%;
+    height: 2rem;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button::after:hover{
+   width: 100%;
+   position: absolute;
+}
 
     .recovery{
         display: flex;

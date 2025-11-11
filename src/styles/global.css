@@ -49,14 +49,11 @@ button{
     color: #fff;
 
     &:hover{
-        transform: rotateY(10deg);
         scale: 0.9;
     }
 }
 
-button::after:hover{
-   width: 100%;
-}
+
 
 h1{
     font-size: 3rem;
