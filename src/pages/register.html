@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/form.css" />
+  </head>
+  <body>
+    <form>
+      <h1>register</h1>
+      <div class="inputs">
+        <input type="text" placeholder="Name" id="name-register" />
+        <input type="text" placeholder="Username" id="username-register" />
+        <input type="password" placeholder="Password" id="password-register" />
+      </div>
+
+      <div class="show">
+        <input id="checkbox-register" type="checkbox" />
+        <label for="checkbox-register">Show password</label>
+      </div>
+
+      <button id="button-register">Register</button>
+
+      <div class="recovery">
+        <small>Already have an account? Click <a href="./login.html">here</a>.</small>
+      </div>
+    </form>
+    <script src="../scripts/register.js"></script>
+  </body>
+</html>

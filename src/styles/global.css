@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+    color: #fff;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #838da1 5%, #123076 99%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+button{
+    padding: 0.5rem 3rem;
+    font-weight: 700;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    border: none;
+    transition: ease .3s;
+    background-color: #133a95;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover{
+        transform: rotateY(10deg);
+        scale: 0.9;
+    }
+}
+
+button::after:hover{
+   width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    text-shadow: 0.1rem 0.1rem 1rem black;
+}
+
+h3{
+    text-shadow: 0.1rem 0.1rem 1rem black; 
+}
