@@ -14,8 +14,8 @@ button.addEventListener("click", (event) => {
     return;
   } 
 
-  const usernameSession  = sessionStorage.getItem("username")
-  const passwordSession  = sessionStorage.getItem("password")
+  const usernameSession = sessionStorage.getItem("username")
+  const passwordSession = sessionStorage.getItem("password")
 
   if(usernameValue !== usernameSession || passwordValue !== passwordSession) {
      alert("Incorrect username or password")
